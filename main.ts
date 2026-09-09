@@ -231,6 +231,7 @@ basic.showLeds(`
     # . . # #
     # . . . #
     `)
+basic.clearScreen()
 basic.pause(2000)
 music.play(music.tonePlayable(1320, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
 basic.pause(100)
